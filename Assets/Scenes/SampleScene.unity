@@ -121,28 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &643452942 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 201855312422978816, guid: 0a0892279a7072e4593623b66b99a401,
-    type: 3}
-  m_PrefabInstance: {fileID: 5929205089972169116}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &643452949
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 643452942}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,8 +402,8 @@ GameObject:
   - component: {fileID: 1421289333}
   - component: {fileID: 1421289332}
   - component: {fileID: 1421289331}
-  - component: {fileID: 1421289336}
   - component: {fileID: 1421289335}
+  - component: {fileID: 1421289336}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -501,7 +479,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421289330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 61.37, y: 4.823, z: 1.39}
+  m_LocalPosition: {x: 61.37, y: 4.823, z: -2.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -801,6 +779,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _duration
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1501270714002986838, guid: e3b70da9e5179b94394254cfec87af78,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8048190447484436361, guid: e3b70da9e5179b94394254cfec87af78,
         type: 3}
